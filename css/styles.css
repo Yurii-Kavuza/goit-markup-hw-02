@@ -1,0 +1,170 @@
+:root {
+  --primary-text-color-grey: #757575;
+  --primary-text-color-blue: #2196f3;
+  --primary-text-color-black: #212121;
+  --primary-text-color-white: #ffffff;
+  --primary-text-color-white-lighten: rgba(255, 255, 255, 0.6);
+  --icon-backrgound-color-grey: #afb1b8;
+  --icon-backrgound-color-features: #f5f4fa;
+  --icon-backrgound-color-footer: rgba(255, 255, 255, 0.1);
+  --logo-text-color-black: #000000;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 400;
+  background-color: var(--primary-background-color);
+  letter-spacing: 0.03em;
+}
+
+/*Logo*/
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-text-color-blue);
+}
+
+.logo .logo-black-color {
+  color: var(--logo-text-color-black);
+}
+
+.logo .logo-white-color {
+  color: var(--primary-text-color-white);
+}
+
+/*Button*/
+.btn {
+  background-color: var(--icon-backrgound-color-features);
+  color: var(--primary-text-color-black);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--primary-text-color-blue);
+  color: var(--primary-text-color-white);
+}
+
+/*Utility*/
+.list-style-none {
+  list-style: none;
+}
+
+.text-aligned-center {
+  text-align: center;
+}
+
+/*Header*/
+.site-nav,
+.contacts {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.site-nav-link,
+.contacts-link,
+.card-link {
+  text-decoration: none;
+}
+
+.site-nav-link,
+.site-nav-link:visited {
+  color: var(--primary-text-color-black);
+}
+
+.contacts-link,
+.contacts-link:visited {
+  color: var(--primary-text-color-grey);
+}
+
+.site-nav-link.site-nav-link-current,
+.site-nav-link:hover,
+.site-nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--primary-text-color-blue);
+}
+
+/*section-hero*/
+.section-hero {
+  color: var(--primary-text-color-white);
+  background: rgba(47, 48, 58, 0.4);
+  text-align: center;
+}
+
+.header-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-white);
+  background-color: var(--primary-text-color-blue);
+}
+
+/*Our characteristics*/
+
+.list-chars-header {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--primary-text-color-black);
+}
+
+.list-chars-text {
+  font-weight: normal;
+  line-height: 1.71;
+  color: var(--primary-text-color-grey);
+}
+
+/*Our team*/
+
+.section-our-team {
+  background-color: var(--icon-backrgound-color-features);
+}
+
+/*Footer*/
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.address-list-item {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--primary-text-color-white);
+}
+
+.address-list-item .contacts-link {
+  color: var(--primary-text-color-white-lighten);
+}
+
+/*Portfolio*/
+/*Cards*/
+.card-header {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-black);
+}
+
+.card-category {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
